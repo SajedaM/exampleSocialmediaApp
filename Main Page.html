@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset ="utf-8">
+    <meta name ="description"content ="Welcome To Social Media APP">
+    <title> Login </title>
+    <link rel = "stylesheet" href="style.css">
+    <script> alert ("Wecome To Social Media APP") </script> 
+  </head>
+  <body>
+      
+          <h3> Social Media APP </h3>
+          
+          <a href="Main Page.html"> Home </a> 
+           -----------
+          <a href="Search Friends.html"> Search Friend </a>
+          
+          -----------
+          <a href="Friend Request.html"> Friend Request </a>
+           <br>
+    
+    
+        <div class="container">
+          <h2 > Creat Post?</h2>
+          <form>
+            <textarea placeholder="Add Your Post"></textarea>
+            <div class="btn">
+              <input type="submit" value='Post'>
+              <button id = 'clear'>Cancel</button>
+            </div>
+          </form>
+        </div>
+        
+            
+        
+        
+      <div class="search">
+      <div class="icon"></div>
+      <div class="input"></div>
+    </div>
+    <script>
+    const icon = document.querySelector('.icon');
+    const search = document.querySelector('.search');
+    icon.onclick = function(){
+      search.classList.toggle('active')
+    }
+    </script>
+  </body>
+
+  
+</html>
